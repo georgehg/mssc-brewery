@@ -10,10 +10,10 @@ import java.util.UUID;
 @Getter
 @NoArgsConstructor(force = true, access = AccessLevel.PROTECTED)
 @AllArgsConstructor(staticName = "of")
-public class Customer {
+public class CustomerDto {
 
-    private final UUID customerId,
+    private final UUID id;
 
     private final String name;
-    
+
 }
